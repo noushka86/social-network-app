@@ -1,0 +1,30 @@
+@import '{reywood:bootstrap3-sass}/bootstrap';
+
+
+.new-post{
+	height: 120px;
+	width:500px;
+	border:2px solid black;
+}
+
+.post-input{
+	width:490px;
+	height: 80px;
+	border:none;
+	 resize: none;
+
+}
+
+.post-input:focus{
+	outline: none;
+
+}
+
+#post-button{
+	margin-top: 10px;
+}
+
+.posts-box{
+	border:2px solid black;
+	margin-top: 40px;
+}

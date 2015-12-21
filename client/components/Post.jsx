@@ -1,0 +1,10 @@
+Post=React.createClass({
+	render(){
+		console.log(this.props.post.text)
+		return(
+		<li>
+			{this.props.post.text}
+		</li>
+		)
+	}
+})
